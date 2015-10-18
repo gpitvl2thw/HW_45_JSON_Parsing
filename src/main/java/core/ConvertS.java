@@ -136,8 +136,9 @@ public class ConvertS {
 			doubleOld = itemPriceUSD * Double.parseDouble(JSONS2D[i][7]);
 			doubleNew = new BigDecimal(doubleOld).setScale(2,
 					RoundingMode.HALF_EVEN).doubleValue();
-			arrS2D.add(new String[] { "", "Local Price: " + doubleNew,
-					"Local Price: " + doubleNew });
+			arrS2D.add(new String[] { "",
+					"Local Price: " + JSONS2D[i][5] + doubleNew,
+					"Local Price: " + JSONS2D[i][5] + doubleNew });
 		} // for (int i = 0; i < urlS.length; i++) {
 
 		// close

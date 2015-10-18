@@ -59,7 +59,7 @@ public class JSON {
 
 		final String[] JSONElementS = { "geoplugin_status",
 				"geoplugin_countryName", "geoplugin_city",
-				"geoplugin_currencyCode", "geoplugin_currencySymbol" };
+				"geoplugin_currencyCode", "geoplugin_currencySymbol_UTF8" };
 		final String[] JSONElementS2 = { "id", "Rate" };
 		String[] urlRate = {
 				"http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20yahoo.finance.xchange%20where%20pair%20in%20%28%22",
@@ -69,7 +69,7 @@ public class JSON {
 		String countryName = null; // France
 		String city = null; // Paris
 		String currencyCode = null; // EUR
-		String currencySymbol = null; // &#8364; - €
+		String currencySymbol_UTF8 = null; // &#8364; - €
 		String id = null; // USDEUR
 		String rate = null; // 0.7348
 
@@ -112,7 +112,7 @@ public class JSON {
 						currencyCode = parser.getString();
 					} else if (parser.getString().equals(JSONElementS[4])) {
 						parser.next();
-						currencySymbol = parser.getString();
+						currencySymbol_UTF8 = parser.getString();
 					} // if (parser.getString().equals(JSONElementS[0])) {
 				} // if (e == Event.KEY_NAME) {
 			} // while (parser.hasNext()) {
@@ -150,7 +150,7 @@ public class JSON {
 
 			// запись
 			JSONArList.add(new String[] { AllIP[i], status, countryName, city,
-					currencyCode, currencySymbol, id, rate });
+					currencyCode, currencySymbol_UTF8, id, rate });
 		} // for(int i = 0; i < AllIP.length; i++)
 
 		// convert

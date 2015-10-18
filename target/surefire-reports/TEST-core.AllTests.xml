@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="0.009" errors="0" skipped="0" tests="20" name="core.AllTests">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\DEV\JAVA\JDK_WIN\jdk_1.7.0_79_64\jre\bin"/>
+    <property name="java.vm.version" value="24.79-b02"/>
+    <property name="build.version" value="1.3.1"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\DEV\JAVA\WorkspaceS\L2T\HW_45_JSON_Parsing"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="test" value="AllTests"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\DEV\JAVA\WorkspaceS\L2T\HW_45_JSON_Parsing"/>
+    <property name="java.runtime.version" value="1.7.0_79-b15"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\DEV\JAVA\JDK_WIN\jdk_1.7.0_79_64\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\!!!MY!!!\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="classworlds.conf" value="C:\DEV\ToolS\Maven\apache-maven-3.3.3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\DEV\JAVA\JDK_WIN\jdk_1.7.0_79_64\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Hewlett-Packard\SimplePass\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\DEV\JAVA\JDK_WIN\jdk_1.7.0_79_64\bin;C:\DEV\ToolS\Maven\apache-maven-3.3.3\bin;C:\DEV\ToolS\Git\Git-1.9.5\bin;C:\DEV\ToolS\Git\Git-1.9.5\cmd;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.3"/>
+    <property name="user.home" value="C:\Users\User1"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="User1"/>
+    <property name="java.class.path" value="C:\DEV\ToolS\Maven\apache-maven-3.3.3\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\DEV\JAVA\JDK_WIN\jdk_1.7.0_79_64\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean site test -Dtest=AllTests -Dbuild.version=1.3.1 -DtypeWebDriver=FirefoxDriver"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="typeWebDriver" value="FirefoxDriver"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_79"/>
+    <property name="java.ext.dirs" value="C:\DEV\JAVA\JDK_WIN\jdk_1.7.0_79_64\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\DEV\JAVA\JDK_WIN\jdk_1.7.0_79_64\jre\lib\resources.jar;C:\DEV\JAVA\JDK_WIN\jdk_1.7.0_79_64\jre\lib\rt.jar;C:\DEV\JAVA\JDK_WIN\jdk_1.7.0_79_64\jre\lib\sunrsasign.jar;C:\DEV\JAVA\JDK_WIN\jdk_1.7.0_79_64\jre\lib\jsse.jar;C:\DEV\JAVA\JDK_WIN\jdk_1.7.0_79_64\jre\lib\jce.jar;C:\DEV\JAVA\JDK_WIN\jdk_1.7.0_79_64\jre\lib\charsets.jar;C:\DEV\JAVA\JDK_WIN\jdk_1.7.0_79_64\jre\lib\jfr.jar;C:\DEV\JAVA\JDK_WIN\jdk_1.7.0_79_64\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\DEV\ToolS\Maven\apache-maven-3.3.3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase time="0.004" classname="core.ConvertSToS2DTest" name="testCheckTableSValidation[Iteration # 0 : exp: Name: adidas Brazuca FIFA 2014 World Cup Official Match Soccer Ball; act: Name: adidas Brazuca FIFA 2014 World Cup Official Match Soccer Ball]"/>
+  <testcase time="0" classname="core.ConvertSToS2DTest" name="testCheckTableSValidation[Iteration # 1 : exp: US Prise: 140.49; act: US Prise: 140.49]"/>
+  <testcase time="0" classname="core.ConvertSToS2DTest" name="testCheckTableSValidation[Iteration # 2 : exp: Country: France; act: Country: France]"/>
+  <testcase time="0" classname="core.ConvertSToS2DTest" name="testCheckTableSValidation[Iteration # 3 : exp: Local Price: €123.7; act: Local Price: €123.7]"/>
+  <testcase time="0" classname="core.ConvertSToS2DTest" name="testCheckTableSValidation[Iteration # 4 : exp: Name: Withings Pulse O2 Activity, Sleep, and Heart Rate + SPO2 Tracker for iOS and Android; act: Name: Withings Pulse O2 Activity, Sleep, and Heart Rate + SPO2 Tracker for iOS and Android]"/>
+  <testcase time="0" classname="core.ConvertSToS2DTest" name="testCheckTableSValidation[Iteration # 5 : exp: US Prise: 141.08; act: US Prise: 141.08]"/>
+  <testcase time="0" classname="core.ConvertSToS2DTest" name="testCheckTableSValidation[Iteration # 6 : exp: Country: China; act: Country: China]"/>
+  <testcase time="0.004" classname="core.ConvertSToS2DTest" name="testCheckTableSValidation[Iteration # 7 : exp: Local Price: 元895.94; act: Local Price: 元895.94]"/>
+  <testcase time="0.001" classname="core.ConvertSToS2DTest" name="testCheckTableSValidation[Iteration # 8 : exp: Name: Samsung Galaxy S DUOS GT-S7562 Unlocked GSM Phone Dual SIM, 4&quot; Touchscreen, 5MP Camera, Video, GPS, Wi-Fi, Bluetooth No Warranty - Black; act: Name: Samsung Galaxy S DUOS GT-S7562 Unlocked GSM Phone Dual SIM, 4&quot; Touchscreen, 5MP Camera, Video, GPS, Wi-Fi, Bluetooth No Warranty - Black]"/>
+  <testcase time="0" classname="core.ConvertSToS2DTest" name="testCheckTableSValidation[Iteration # 9 : exp: US Prise: 112.0; act: US Prise: 112.0]"/>
+  <testcase time="0" classname="core.ConvertSToS2DTest" name="testCheckTableSValidation[Iteration # 10 : exp: Country: United Kingdom; act: Country: United Kingdom]"/>
+  <testcase time="0" classname="core.ConvertSToS2DTest" name="testCheckTableSValidation[Iteration # 11 : exp: Local Price: £72.53; act: Local Price: £72.53]"/>
+  <testcase time="0" classname="core.ConvertSToS2DTest" name="testCheckTableSValidation[Iteration # 12 : exp: Name: GoPro HERO3+ Black Edition Adventure Camera (Discontinued by Manufacturer); act: Name: GoPro HERO3+ Black Edition Adventure Camera (Discontinued by Manufacturer)]"/>
+  <testcase time="0" classname="core.ConvertSToS2DTest" name="testCheckTableSValidation[Iteration # 13 : exp: US Prise: 357.0; act: US Prise: 357.0]"/>
+  <testcase time="0" classname="core.ConvertSToS2DTest" name="testCheckTableSValidation[Iteration # 14 : exp: Country: Ukraine; act: Country: Ukraine]"/>
+  <testcase time="0" classname="core.ConvertSToS2DTest" name="testCheckTableSValidation[Iteration # 15 : exp: Local Price: ₴7595.17; act: Local Price: ₴7595.17]"/>
+  <testcase time="0" classname="core.ConvertSToS2DTest" name="testCheckTableSValidation[Iteration # 16 : exp: Name: Apple iPhone 5s Unlocked Cellphone, 16GB, Space Gray; act: Name: Apple iPhone 5s Unlocked Cellphone, 16GB, Space Gray]"/>
+  <testcase time="0" classname="core.ConvertSToS2DTest" name="testCheckTableSValidation[Iteration # 17 : exp: US Prise: 494.0; act: US Prise: 494.0]"/>
+  <testcase time="0" classname="core.ConvertSToS2DTest" name="testCheckTableSValidation[Iteration # 18 : exp: Country: Russian Federation; act: Country: Russian Federation]"/>
+  <testcase time="0" classname="core.ConvertSToS2DTest" name="testCheckTableSValidation[Iteration # 19 : exp: Local Price: руб30516.6; act: Local Price: руб30516.6]"/>
+</testsuite>
